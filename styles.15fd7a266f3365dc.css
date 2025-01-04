@@ -9372,6 +9372,7 @@ app-footer .dark-bg {
   font-size: 14px;
 }
 ul.social-icon li {
+  display: none !important;
   list-style: none;
   float: left;
   margin: 0 5px;
