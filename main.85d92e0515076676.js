@@ -79,15 +79,15 @@
           RPCData() {
             return {
               chainId: 1100,
-              chainName: "AGNUS",
-              name: "AGNUS",
-              symbol: "AGNUS",
+              chainName: "LUMA",
+              name: "LUMA",
+              symbol: "LUMA",
               decimals: 18,
               rpcUrls: "https://rpc.agnscan.com",
             };
           }
           SiteCoin() {
-            return "AGNUS";
+            return "LUMA";
           }
           idleLogout() {
             var t;
@@ -230,7 +230,7 @@
                 "clearHeader",
               ],
               ["href", "#", 1, "navbar-brand"],
-              ["src", "assets/images/logo.svg"],
+              ["src", "assets/images/logo.png"],
               [
                 "type",
                 "button",
@@ -880,7 +880,7 @@
               [1, "row"],
               [1, "col-md-12", "col-lg-6", "text-center-m"],
               [1, "footer-logo", "mb-2"],
-              ["width", "130", "src", "assets/images/logo.svg"],
+              ["width", "130", "src", "assets/images/logo.png"],
               ["autocomplete", "off"],
               ["f", "ngForm"],
               [1, "blue-t", "mb-2"],
@@ -1071,7 +1071,7 @@
                   e.TgZ(63, "div", 33),
                   e.TgZ(64, "div", 18),
                   e.TgZ(65, "span", 34),
-                  e._uU(66, "Copyright \xa9 2023 Agnus | All Rights Reserved"),
+                  e._uU(66, "Copyright \xa9 2024 Luma | All Rights Reserved"),
                   e.qZA(),
                   e.qZA(),
                   e.TgZ(67, "div", 35),
@@ -1522,7 +1522,7 @@
                 e.qZA(),
                 e.TgZ(15, "div"),
                 e.TgZ(16, "div"),
-                e._uU(17, "AGNUS PRICE"),
+                e._uU(17, "LUMA PRICE"),
                 e.qZA(),
                 e.TgZ(18, "div"),
                 e._uU(19, "100.3"),
@@ -4098,7 +4098,7 @@
                 e.qZA(),
                 e.TgZ(12, "div", 7),
                 e.TgZ(13, "div", 8),
-                e._uU(14, "Agnus Balance:"),
+                e._uU(14, "LUMA Balance:"),
                 e.qZA(),
                 e.TgZ(15, "div", 9),
                 e._uU(16),
@@ -4106,7 +4106,7 @@
                 e.qZA(),
                 e.TgZ(17, "div", 7),
                 e.TgZ(18, "div", 8),
-                e._uU(19, "Agnus Value:"),
+                e._uU(19, "LUMA Value:"),
                 e.qZA(),
                 e.TgZ(20, "div", 9),
                 e._uU(21),
@@ -4763,7 +4763,7 @@
                   e.TgZ(15, "td", 3),
                   e._uU(16),
                   e.TgZ(17, "div", 10),
-                  e._uU(18, "Total agnus Tokens"),
+                  e._uU(18, "Total LUMA Tokens"),
                   e.qZA(),
                   e.qZA(),
                   e.TgZ(19, "td", 11),
@@ -4787,7 +4787,7 @@
                   e.TgZ(27, "ul", 14),
                   e.TgZ(28, "li", 15),
                   e.TgZ(29, "a", 16),
-                  e._uU(30, "agnus20"),
+                  e._uU(30, "LUMA20"),
                   e.qZA(),
                   e.qZA(),
                   e.qZA(),
@@ -6187,7 +6187,7 @@
               (this.privatekeycheck = !0),
               (this.tokpkcheck = !0),
               (this.transactionData = []),
-              (this.balance = "Balance : 0.00 agnus"),
+              (this.balance = "Balance : 0.00 luma"),
               (this.ob_type = "BANDWIDTH"),
               (this.token_avl = !1),
               (this.token_logo = ""),
@@ -6235,7 +6235,7 @@
                 .subscribe((o) => {
                   1 == o.success &&
                     ((this.balance =
-                      "Balance : " + o.result.balance + " agnus"),
+                      "Balance : " + o.result.balance + " luma"),
                     (this.transactionData = o.result.listTransactions));
                 }),
               this.conn
@@ -6449,7 +6449,7 @@
               : this.alert.error("Invalid address", "", { timeOut: 2e3 });
           }
           tokenselectoption(t) {
-            this.conAddr = "agnus20" == t;
+            this.conAddr = "LUMA20" == t;
           }
           ngOnDestroy() {
             this.id && clearInterval(this.id);
@@ -6896,7 +6896,7 @@
               ],
               ["token_type", "ngModel"],
               ["value", "", "disabled", "", "selected", "", "hidden", ""],
-              ["value", "agnus20", "selected", ""],
+              ["value", "LUMA20", "selected", ""],
               [
                 1,
                 "btn",
@@ -6987,7 +6987,7 @@
                   e._UZ(16, "img", 11),
                   e.qZA(),
                   e.TgZ(17, "div", 12),
-                  e._uU(18, "agnus "),
+                  e._uU(18, "LUMA "),
                   e.qZA(),
                   e.qZA(),
                   e.TgZ(19, "div", 13),
@@ -7117,7 +7117,7 @@
                   e._uU(89, "Select Token"),
                   e.qZA(),
                   e.TgZ(90, "option", 45),
-                  e._uU(91, "agnus 20"),
+                  e._uU(91, "LUMA 20"),
                   e.qZA(),
                   e.qZA(),
                   e.qZA(),
@@ -7218,7 +7218,7 @@
                   e.TgZ(152, "div", 25),
                   e.TgZ(153, "div", 26),
                   e.TgZ(154, "h5", 27),
-                  e._uU(155, "Token (agnus10) Transfer Form"),
+                  e._uU(155, "Token (LUMA10) Transfer Form"),
                   e.qZA(),
                   e.TgZ(156, "button", 29),
                   e.TgZ(157, "span", 30),
@@ -7290,7 +7290,7 @@
                   e.TgZ(196, "div", 25),
                   e.TgZ(197, "div", 26),
                   e.TgZ(198, "h5", 27),
-                  e._uU(199, "Obtain Resources and agnus Power"),
+                  e._uU(199, "Obtain Resources and LUMA Power"),
                   e.qZA(),
                   e.TgZ(200, "button", 29),
                   e.TgZ(201, "span", 30),
@@ -7309,16 +7309,16 @@
                     return (o.ob_type = s);
                   }),
                   e.TgZ(210, "option", 68),
-                  e._uU(211, "agnus Power and Bandwidth"),
+                  e._uU(211, "LUMA Power and Bandwidth"),
                   e.qZA(),
                   e.TgZ(212, "option", 69),
-                  e._uU(213, "agnus Power and Energy"),
+                  e._uU(213, "LUMA Power and Energy"),
                   e.qZA(),
                   e.qZA(),
                   e.qZA(),
                   e.TgZ(214, "div", 34),
                   e.TgZ(215, "label"),
-                  e._uU(216, "Amount(agnus)"),
+                  e._uU(216, "Amount(LUMA)"),
                   e.qZA(),
                   e._UZ(217, "input", 70, 47),
                   e.YNc(219, no, 2, 1, "div", 37),
@@ -7343,7 +7343,7 @@
                   e.TgZ(231, "span"),
                   e._uU(232, "0"),
                   e.qZA(),
-                  e._uU(233, " agnus at least 72 hours"),
+                  e._uU(233, " luma at least 72 hours"),
                   e.qZA(),
                   e.qZA(),
                   e.qZA(),
@@ -7470,7 +7470,7 @@
                   e._uU(303, "Select Token type"),
                   e.qZA(),
                   e.TgZ(304, "option", 101),
-                  e._uU(305, "agnus20 Token"),
+                  e._uU(305, "luma20 Token"),
                   e.qZA(),
                   e.qZA(),
                   e.qZA(),
@@ -8004,7 +8004,7 @@
                   e.xp6(21),
                   e.hij("", o.address, " "),
                   e.xp6(6),
-                  e.hij(" ", o.balance, " agnus"),
+                  e.hij(" ", o.balance, " luma"),
                   e.xp6(5),
                   e.hij("", o.transactionCount, " TXns"),
                   e.xp6(22),
@@ -12123,7 +12123,7 @@
                   (this.status = ""),
                   (this.valuefile = ""),
                   (this.showEditor = !1),
-                  (this.balance = "0.00 agnus"),
+                  (this.balance = "0.00 luma"),
                   (this.transaction_count = "0 Txns"),
                   (this.created_on = ""),
                   (this.creator = ""),
@@ -12856,7 +12856,7 @@
                     e._uU(21, "Balance :"),
                     e.qZA(),
                     e.TgZ(22, "div", 11),
-                    e._uU(23, "0.00 agnus"),
+                    e._uU(23, "0.00 luma"),
                     e.qZA(),
                     e.qZA(),
                     e.TgZ(24, "div", 8),
@@ -12872,7 +12872,7 @@
                     e._uU(31, "Token Tracker : "),
                     e.qZA(),
                     e.TgZ(32, "div", 10),
-                    e._uU(33, "Agnus (agnus)"),
+                    e._uU(33, "Luma"),
                     e.qZA(),
                     e.qZA(),
                     e.qZA(),
@@ -12907,7 +12907,7 @@
                     e._uU(53, "Initial Asset :"),
                     e.qZA(),
                     e.TgZ(54, "div", 10),
-                    e._uU(55, "0 agnus"),
+                    e._uU(55, "0 luma"),
                     e.qZA(),
                     e.qZA(),
                     e.qZA(),
@@ -14457,19 +14457,19 @@
                       e.TgZ(29, "div", 18),
                       e.TgZ(30, "div", 19),
                       e.TgZ(31, "h1"),
-                      e._uU(32, "agnus 20"),
+                      e._uU(32, "luma20"),
                       e.qZA(),
                       e.TgZ(33, "p"),
                       e._uU(
                         34,
-                        "agnus20 token is issued by smart contract, so make sure you have finished "
+                        "LUMA20 token is issued by smart contract, so make sure you have finished "
                       ),
                       e.TgZ(35, "a", 20),
                       e._uU(36, "Smart Contract Deployment "),
                       e.qZA(),
                       e._uU(
                         37,
-                        ". Each account may record mutiple agnus20 tokens. "
+                        ". Each account may record mutiple LUMA20 tokens. "
                       ),
                       e.qZA(),
                       e.qZA(),
@@ -15000,7 +15000,7 @@
                       e.TgZ(345, "p", 86),
                       e._uU(
                         346,
-                        " Only supports png, jpg, jpeg three formats the size does not exceed 200k. the pixel is 100*100, agnus20 token please fill in the contract address before uploading the logo "
+                        " Only supports png, jpg, jpeg three formats the size does not exceed 200k. the pixel is 100*100, LUMA20 token please fill in the contract address before uploading the logo "
                       ),
                       e.qZA(),
                       e.YNc(347, Qa, 2, 1, "div", 32),
@@ -15039,7 +15039,7 @@
                       e.YNc(366, Ha, 2, 1, "div", 32),
                       e.qZA(),
                       e.TgZ(367, "p", 94),
-                      e._uU(368, "agnus"),
+                      e._uU(368, "luma"),
                       e.TgZ(369, "span"),
                       e._uU(370),
                       e.qZA(),
@@ -15312,7 +15312,7 @@
                       e.TgZ(515, "label", 114),
                       e._uU(
                         516,
-                        "I have learned that issuing a token requires a one time consumption of 1024agnus "
+                        "I have learned that issuing a token requires a one time consumption of 1024LUMA "
                       ),
                       e.qZA(),
                       e.qZA(),
@@ -15605,10 +15605,10 @@
                         H.errors && (H.valid || H.touched || q.submitted)
                       ),
                       e.xp6(4),
-                      e.AsE(" (1 ", o.tokename, " = ", o.tokenvalue, " agnus)"),
+                      e.AsE(" (1 ", o.tokename, " = ", o.tokenvalue, " LUMA)"),
                       e.xp6(7),
                       e.hij(
-                        " Specify the participation period in which tokens will be issued. During the participation period can exchange agnus for ",
+                        " Specify the participation period in which tokens will be issued. During the participation period can exchange LUMA for ",
                         o.tokename,
                         " tokens. "
                       ),
@@ -16347,7 +16347,7 @@
                       e.TgZ(12, "div", 9),
                       e._uU(
                         13,
-                        " The committee is made up of 27 super representatives who are responsible for modifying dynamic parameters such as block rewards and transaction fees on the agnus network. Each SR, super partner and SR candidate is entitled to initiate and vote for proposals. A proposal is adopted as long as it is voted for by at least 18 SRs. The adopted proposal will apply its changes to network parameters in the next maintenance period. "
+                        " The committee is made up of 27 super representatives who are responsible for modifying dynamic parameters such as block rewards and transaction fees on the LUMA network. Each SR, super partner and SR candidate is entitled to initiate and vote for proposals. A proposal is adopted as long as it is voted for by at least 18 SRs. The adopted proposal will apply its changes to network parameters in the next maintenance period. "
                       ),
                       e.qZA(),
                       e.qZA(),
@@ -16364,7 +16364,7 @@
                       e.NdJ("click", function () {
                         return o.Parameters();
                       }),
-                      e._uU(21, "agnus Network Parameters"),
+                      e._uU(21, "LUMA Network Parameters"),
                       e.qZA(),
                       e.qZA(),
                       e.TgZ(22, "li", 14),
@@ -16484,7 +16484,7 @@
                       e.TgZ(85, "span"),
                       e._uU(
                         86,
-                        " All token holders can apply to become Super Representative (SR) candidates by clicking into the Account page, they can also vote for the candidates by clicking into the Votes page. Each user can vote for multiple candidates, with the number of votes smaller or equal to the amount of agnus that they hold. The voting results are based on the last round of voting by each user. The number of votes will be updated at 02.00(GMT+8), 08.00(GMT+8), 14.00(GMT+8), 20.00(GMT+8) every day, users can also view real-time vote numbers. The top 27 most-voted candidates will become SRs and be responsible for transaction packaging and block generation, with a reward of 32 agnus per block generation. The 27 SRs and the top 100 SR candidates can also receive rewards of nodes based on the votes they receive. A one-time transaction fee of 9.999 agnus will be deducted for the application to become a candidate. it will not cost any agnus for users to vote for SR candidates."
+                        " All token holders can apply to become Super Representative (SR) candidates by clicking into the Account page, they can also vote for the candidates by clicking into the Votes page. Each user can vote for multiple candidates, with the number of votes smaller or equal to the amount of Luma that they hold. The voting results are based on the last round of voting by each user. The number of votes will be updated at 02.00(GMT+8), 08.00(GMT+8), 14.00(GMT+8), 20.00(GMT+8) every day, users can also view real-time vote numbers. The top 27 most-voted candidates will become SRs and be responsible for transaction packaging and block generation, with a reward of 32 luma per block generation. The 27 SRs and the top 100 SR candidates can also receive rewards of nodes based on the votes they receive. A one-time transaction fee of 9.999 luma will be deducted for the application to become a candidate. it will not cost any luma for users to vote for SR candidates."
                       ),
                       e.qZA(),
                       e.TgZ(87, "form", 38, 39),
@@ -16501,7 +16501,7 @@
                       e.TgZ(99, "label", 48),
                       e._uU(
                         100,
-                        "I understand how to be a agnus representative and i confirm to spend a 9,999 TRX free"
+                        "I understand how to be a luma representative and i confirm to spend a 9,999 TRX free"
                       ),
                       e.qZA(),
                       e.qZA(),
@@ -16601,7 +16601,7 @@
                   (this.status = ""),
                   (this.valuefile = ""),
                   (this.showEditor = !1),
-                  (this.balance = "0.00 agnus"),
+                  (this.balance = "0.00 luma"),
                   (this.transaction_count = "0 Txns"),
                   (this.created_on = ""),
                   (this.tokeninfo = []),
@@ -16642,7 +16642,7 @@
                           (this.version = r.version),
                           (this.optimization = r.optimization),
                           (this.contract_name = r.contract_name),
-                          (this.balance = o.balance + " agnus"),
+                          (this.balance = o.balance + " luma"),
                           (this.transaction_count = o.count + " Txns"),
                           (this.created_on = r.created_at);
                         var s = o.useraddr,
@@ -16953,7 +16953,7 @@
                     e.TgZ(10, "p"),
                     e._uU(
                       11,
-                      " agnus-scan is the first block explorer based on agnus. It not only includes some basic functions of the block explorer, such as search query transactions, accounts, blocks, nodes, smart contracts; data statistics and queries on the chain, but also directly supports token creation. At the same time, which enriches the agnus-scan application matrix. "
+                      " Luma-AIis the first block explorer based on luma. It not only includes some basic functions of the block explorer, such as search query transactions, accounts, blocks, nodes, smart contracts; data statistics and queries on the chain, but also directly supports token creation. At the same time, which enriches the Luma-AIapplication matrix. "
                     ),
                     e.qZA(),
                     e.qZA(),
@@ -16964,7 +16964,7 @@
                     e._UZ(15, "p", 5),
                     e._uU(
                       16,
-                      " Our team is the Blockchain Welfare Foundation in Malta and has been actively involved in the ecological construction of agnus. The team consists of more than 30 person all over the world, mostly developers and operators. In the future, we will be bound to the agnus ecological development in the long run. To perfect the agnus-scan, we will also develop DApps based on agnus. "
+                      " Our team is the Blockchain Welfare Foundation in Malta and has been actively involved in the ecological construction of agnus. The team consists of more than 30 person all over the world, mostly developers and operators. In the future, we will be bound to the Luma ecological development in the long run. To perfect the agnus-scan, we will also develop DApps based on luma. "
                     ),
                     e.TgZ(17, "div", 0),
                     e.TgZ(18, "div", 6),
@@ -17011,12 +17011,12 @@
                     e.qZA(),
                     e.TgZ(44, "div", 3),
                     e.TgZ(45, "h5", 4),
-                    e._uU(46, "agnus-scan users all over the world"),
+                    e._uU(46, "Luma-AIusers all over the world"),
                     e.qZA(),
                     e.TgZ(47, "p"),
                     e._uU(
                       48,
-                      " Every day, agnus supporters from around the world use the agnus-scan block explorer, where they can query the details of the transaction and experience the latest features of agnus. "
+                      " Every day, luma supporters from around the world use the Luma-AIblock explorer, where they can query the details of the transaction and experience the latest features of agnus. "
                     ),
                     e.qZA(),
                     e.qZA(),
@@ -17070,7 +17070,7 @@
                     e._uU(4, "Terms of Service"),
                     e.qZA(),
                     e.TgZ(5, "p"),
-                    e._uU(6, "Last updated: August 5, 2022"),
+                    e._uU(6, "Last updated: August 5, 2024"),
                     e.qZA(),
                     e.TgZ(7, "div", 2),
                     e.TgZ(8, "div", 3),
@@ -17087,7 +17087,7 @@
                     e.TgZ(14, "p"),
                     e._uU(
                       15,
-                      " These Terms of Service and any terms expressly incorporated herein (\u201cTerms\u201d) apply to your access to and use of all services (our \u201cServices\u201d) provided by agnus-scan.io (\u201cCompany,\u201d \u201cwe,\u201d or \u201cus\u201d). "
+                      " These Terms of Service and any terms expressly incorporated herein (\u201cTerms\u201d) apply to your access to and use of all services (our \u201cServices\u201d) provided by Luma AI (\u201cCompany,\u201d \u201cwe,\u201d or \u201cus\u201d). "
                     ),
                     e.qZA(),
                     e.qZA(),
@@ -17207,7 +17207,7 @@
                     e.TgZ(68, "li"),
                     e._uU(
                       69,
-                      "incorrectly constructed transactions or mistyped agnus addresses; or"
+                      "incorrectly constructed transactions or mistyped luma addresses; or"
                     ),
                     e.qZA(),
                     e.TgZ(70, "li"),
@@ -17338,7 +17338,7 @@
                     e.qZA(),
                     e._uU(
                       124,
-                      "- You are solely responsible for the content of, and for any harm resulting from, any User-Generated Content that you post, upload, link to or otherwise make available via the Service, regardless of the form of that Content. We are not responsible for any public display or misuse of your User-Generated Content. We have the right (though not the obligation) to refuse or remove any User-Generated Content that, in our sole discretion, violates any agnus-scan terms or policies. "
+                      "- You are solely responsible for the content of, and for any harm resulting from, any User-Generated Content that you post, upload, link to or otherwise make available via the Service, regardless of the form of that Content. We are not responsible for any public display or misuse of your User-Generated Content. We have the right (though not the obligation) to refuse or remove any User-Generated Content that, in our sole discretion, violates any Luma-AIterms or policies. "
                     ),
                     e.qZA(),
                     e.TgZ(125, "p"),
@@ -17374,7 +17374,7 @@
                     e.TgZ(140, "p"),
                     e._uU(
                       141,
-                      " 7.5. To the extent this agreement is not enforceable by applicable law, you grant agnus-scan the rights we need to use your content without attribution and to make reasonable adaptations of your content as necessary to render the Website and provide the service. "
+                      " 7.5. To the extent this agreement is not enforceable by applicable law, you grant Luma-AIthe rights we need to use your content without attribution and to make reasonable adaptations of your content as necessary to render the Website and provide the service. "
                     ),
                     e.qZA(),
                     e.qZA(),
@@ -17395,7 +17395,7 @@
                     e.TgZ(148, "p"),
                     e._uU(
                       149,
-                      " Unauthorized use and/or duplication of this material without express and written permission from this site\u2019s author and/or owner is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to agnus-scan.io with appropriate and specific direction to the original content. "
+                      " Unauthorized use and/or duplication of this material without express and written permission from this site\u2019s author and/or owner is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to Luma AI with appropriate and specific direction to the original content. "
                     ),
                     e.qZA(),
                     e.qZA(),
@@ -17660,7 +17660,7 @@
                     e._uU(4, "Privacy Policy"),
                     e.qZA(),
                     e.TgZ(5, "p"),
-                    e._uU(6, "Last updated: August 5, 2022"),
+                    e._uU(6, "Last updated: August 5, 2024"),
                     e.qZA(),
                     e.TgZ(7, "div", 2),
                     e.TgZ(8, "div", 3),
@@ -17671,7 +17671,7 @@
                     e.TgZ(12, "p"),
                     e._uU(
                       13,
-                      " agnus-scan.io (referred to as the \u201cCompany\u201d, \u201cagnus-scan\u201d, \u201cwe\u201d, \u201cour\u201d or \u201cus\u201d) is committed to the protection of your Personal Data and takes the matter of protecting your privacy as high priority. "
+                      " Luma AI (referred to as the \u201cCompany\u201d, \u201cagnus-scan\u201d, \u201cwe\u201d, \u201cour\u201d or \u201cus\u201d) is committed to the protection of your Personal Data and takes the matter of protecting your privacy as high priority. "
                     ),
                     e.qZA(),
                     e.qZA(),
@@ -18002,7 +18002,7 @@
                     e.TgZ(148, "p"),
                     e._uU(
                       149,
-                      " Please note that depending on the information requested, a nominal fee may be charged and/or backed by the agnus signed message. We will endeavour to provide the information back to you as soon as practicable. However we also reserve the right to validate all requests for the authenticity of the request. "
+                      " Please note that depending on the information requested, a nominal fee may be charged and/or backed by the luma signed message. We will endeavour to provide the information back to you as soon as practicable. However we also reserve the right to validate all requests for the authenticity of the request. "
                     ),
                     e.qZA(),
                     e.qZA(),
@@ -18013,7 +18013,7 @@
                     e.TgZ(153, "p"),
                     e._uU(
                       154,
-                      " Please note that it is obligatory for the Company to process your Personal Data for the Core Purpose as stated above, without which some services or features provided by agnus-scan may be affected. "
+                      " Please note that it is obligatory for the Company to process your Personal Data for the Core Purpose as stated above, without which some services or features provided by Luma-AImay be affected. "
                     ),
                     e.qZA(),
                     e.TgZ(155, "p"),
@@ -18282,7 +18282,7 @@
                       e.TgZ(10, "p"),
                       e._uU(
                         11,
-                        " If you\u2019re considering any of the agnus scan solutions or just want more information, simply fill out the form and we\u2019ll be in touch. "
+                        " If you\u2019re considering any of the luma scan solutions or just want more information, simply fill out the form and we\u2019ll be in touch. "
                       ),
                       e.qZA(),
                       e.qZA(),
@@ -18537,7 +18537,7 @@
                     e.TgZ(15, "p"),
                     e._uU(
                       16,
-                      "agnus-scan serves as the blockchain explorer of agnus, and only displays information on transactions that take place on the agnus public chain. Please note:"
+                      "Luma-AIserves as the blockchain explorer of agnus, and only displays information on transactions that take place on the luma public chain. Please note:"
                     ),
                     e.qZA(),
                     e.TgZ(17, "ul"),
@@ -18614,7 +18614,7 @@
                     e.TgZ(51, "p"),
                     e._uU(
                       52,
-                      " In addition, agnus-scan serves as the blockchain explorer of agnus, and only displays information on transactions that take place on the agnus public chain. Please note: "
+                      " In addition, Luma-AIserves as the blockchain explorer of agnus, and only displays information on transactions that take place on the luma public chain. Please note: "
                     ),
                     e.qZA(),
                     e.TgZ(53, "ul"),
@@ -18654,7 +18654,7 @@
                     e.TgZ(72, "b"),
                     e._uU(
                       73,
-                      "Token holders in the agnus community fall into the following categories"
+                      "Token holders in the luma community fall into the following categories"
                     ),
                     e.qZA(),
                     e.qZA(),
@@ -18674,7 +18674,7 @@
                     e.TgZ(79, "li"),
                     e._uU(
                       80,
-                      "Super Representative: 27 individuals elected through voting by all token holders every 6 hours. Super Representatives play a key role in governing the agnus community by ensuring basic functions, e.g. block generation and bookkeeping, and obtain corresponding earnings."
+                      "Super Representative: 27 individuals elected through voting by all token holders every 6 hours. Super Representatives play a key role in governing the luma community by ensuring basic functions, e.g. block generation and bookkeeping, and obtain corresponding earnings."
                     ),
                     e.qZA(),
                     e.qZA(),
@@ -18693,19 +18693,19 @@
                     e.TgZ(87, "p"),
                     e._uU(
                       88,
-                      "Candidate reward: 127 candidates updated once every 6 hours will share 115200 agnus. The reward will be split in accordance with the votes each candidate receives. Each year, the Total reward of candidates will be 168192,000 agnus each year."
+                      "Candidate reward: 127 candidates updated once every 6 hours will share 115200 agnus. The reward will be split in accordance with the votes each candidate receives. Each year, the Total reward of candidates will be 168192,000 luma each year."
                     ),
                     e.qZA(),
                     e.TgZ(89, "p"),
                     e._uU(
                       90,
-                      "Super Representative reward: The agnus Protocol network will generate one block every 3 seconds, with each block awarding 32 agnus to super representatives. A total of 336,384,000 agnus will be awarded annually to twenty-seven super representatives."
+                      "Super Representative reward: The Luma Protocol network will generate one block every 3 seconds, with each block awarding 32 Luma to super representatives. A total of 336,384,000 luma will be awarded annually to twenty-seven super representatives."
                     ),
                     e.qZA(),
                     e.TgZ(91, "p"),
                     e._uU(
                       92,
-                      " There will be no inflation on the agnus network before January 1, 2021, and the agnus Foundation will award all block rewards and candidate rewards prior to that date. "
+                      " There will be no inflation on the agnus network before November 1, 2024, and the Luma Foundation will award all block rewards and candidate rewards prior to that date. "
                     ),
                     e.qZA(),
                     e._UZ(93, "br"),
@@ -18717,7 +18717,7 @@
                     e.TgZ(97, "p"),
                     e._uU(
                       98,
-                      " Users can get SR information from agnus blockchain explorer, the detailed information shown as below: "
+                      " Users can get SR information from luma blockchain explorer, the detailed information shown as below: "
                     ),
                     e.qZA(),
                     e.TgZ(99, "p"),
@@ -18812,7 +18812,7 @@
                     e.TgZ(20, "p", 4),
                     e._uU(
                       21,
-                      " Every day, agnus supporters from around the world use the agnus-scan block explorer, where they can query the details of the transaction and experience the latest features of agnus. "
+                      " Every day, luma supporters from around the world use the Luma-AIblock explorer, where they can query the details of the transaction and experience the latest features of agnus. "
                     ),
                     e.qZA(),
                     e.qZA(),
@@ -18959,30 +18959,30 @@
                     e.TgZ(19, "h6"),
                     e._uU(
                       20,
-                      "You may use the agnus-scan name and logo in your website or app as long as you adhere to the agnus-scan branding guidelines."
+                      "You may use the Luma-AIname and logo in your website or app as long as you adhere to the Luma-AIbranding guidelines."
                     ),
                     e.qZA(),
                     e.TgZ(21, "ul"),
                     e.TgZ(22, "li"),
                     e._uU(
                       23,
-                      "Do not alter the agnus-scan logo and the logo is intended to be used as provided. "
+                      "Do not alter the Luma-AIlogo and the logo is intended to be used as provided. "
                     ),
                     e.qZA(),
                     e.TgZ(24, "li"),
                     e._uU(
                       25,
-                      "Do not combine agnus-scan logo with other images without consent. "
+                      "Do not combine Luma-AIlogo with other images without consent. "
                     ),
                     e.qZA(),
                     e.TgZ(26, "li"),
                     e._uU(
                       27,
-                      'Do not use the agnus-scan brand in any way that implies a relationship, affiliation, or endorsement. For example, "we partner with agnus-scan." '
+                      'Do not use the Luma-AIbrand in any way that implies a relationship, affiliation, or endorsement. For example, "we partner with Luma AI" '
                     ),
                     e.qZA(),
                     e.TgZ(28, "li"),
-                    e._uU(29, "Do reference agnus-scan as follow "),
+                    e._uU(29, "Do reference Luma-AIas follow "),
                     e.TgZ(30, "ul"),
                     e.TgZ(31, "li"),
                     e._uU(32, '"Powered by agnus-scan"'),
@@ -18998,7 +18998,7 @@
                     e.TgZ(37, "li"),
                     e._uU(
                       38,
-                      "Do not use the agnus-scan brand in conjunction with any illegal and unlawful activity, promotion, and product. "
+                      "Do not use the Luma-AIbrand in conjunction with any illegal and unlawful activity, promotion, and product. "
                     ),
                     e.qZA(),
                     e.qZA(),
@@ -19029,7 +19029,7 @@
                     e.qZA(),
                     e._uU(
                       51,
-                      ". For further information about use of the agnus-scan name that is not covered by the Branding Guidelines, please "
+                      ". For further information about use of the Luma-AIname that is not covered by the Branding Guidelines, please "
                     ),
                     e.TgZ(52, "a", 6),
                     e._uU(53, "Contact Us"),
@@ -19112,7 +19112,7 @@
                     e.TgZ(20, "p", 4),
                     e._uU(
                       21,
-                      " Every day, agnus supporters from around the world use the agnus-scan block explorer, where they can query the details of the transaction and experience the latest features of agnus. "
+                      " Every day, luma supporters from around the world use the Luma-AIblock explorer, where they can query the details of the transaction and experience the latest features of agnus. "
                     ),
                     e.qZA(),
                     e.qZA(),
@@ -19191,7 +19191,7 @@
                     e.TgZ(20, "p", 4),
                     e._uU(
                       21,
-                      " Every day, agnus supporters from around the world use the agnus-scan block explorer, where they can query the details of the transaction and experience the latest features of agnus. "
+                      " Every day, luma supporters from around the world use the Luma-AIblock explorer, where they can query the details of the transaction and experience the latest features of agnus. "
                     ),
                     e.qZA(),
                     e.qZA(),
@@ -19270,7 +19270,7 @@
                     e.TgZ(20, "p", 4),
                     e._uU(
                       21,
-                      " Every day, agnus supporters from around the world use the agnus-scan block explorer, where they can query the details of the transaction and experience the latest features of agnus. "
+                      " Every day, luma supporters from around the world use the Luma-AIblock explorer, where they can query the details of the transaction and experience the latest features of agnus. "
                     ),
                     e.qZA(),
                     e.qZA(),
@@ -20539,12 +20539,12 @@
                       e.qZA(),
                       e.TgZ(24, "div", 10),
                       e.TgZ(25, "div", 11),
-                      e._uU(26, "Account Balance Checker (agnus)"),
+                      e._uU(26, "Account Balance Checker"),
                       e.qZA(),
                       e.TgZ(27, "p"),
                       e._uU(
                         28,
-                        "You can look up the historical balance of an account's Agnus or Tokens at a specific block number or date."
+                        "You can look up the historical balance of an account's Luma or Tokens at a specific block number or date."
                       ),
                       e.qZA(),
                       e.TgZ(29, "div", 12),
@@ -20564,7 +20564,7 @@
                       e._uU(39, "Select Type"),
                       e.qZA(),
                       e.TgZ(40, "option", 19),
-                      e._uU(41, "Agnus (agnus)"),
+                      e._uU(41, "Luma"),
                       e.qZA(),
                       e.TgZ(42, "option", 20),
                       e._uU(43, "Token (agnus-20)"),
@@ -21216,12 +21216,12 @@
                       e.qZA(),
                       e.TgZ(24, "div", 10),
                       e.TgZ(25, "div", 11),
-                      e._uU(26, "Account Balance Checker (agnus)"),
+                      e._uU(26, "Account Balance Checker (luma)"),
                       e.qZA(),
                       e.TgZ(27, "p"),
                       e._uU(
                         28,
-                        "You can look up the historical balance of an account's Agnus or Tokens at a specific block number or date."
+                        "You can look up the historical balance of an account's Luma or Tokens at a specific block number or date."
                       ),
                       e.qZA(),
                       e.TgZ(29, "div", 12),
@@ -21492,12 +21492,12 @@
                       e.TgZ(2, "section"),
                       e.TgZ(3, "div", 0),
                       e.TgZ(4, "div", 1),
-                      e._uU(5, "Agnus Faucet"),
+                      e._uU(5, "Luma Faucet"),
                       e.qZA(),
                       e.TgZ(6, "div", 2),
                       e._uU(
                         7,
-                        "Obtain Agnus Testnet tokens every 24 hours for seamless and confident development."
+                        "Obtain Luma testnet tokens every 24 hours for seamless and confident development."
                       ),
                       e.qZA(),
                       e._UZ(8, "hr"),
